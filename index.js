@@ -1,4 +1,4 @@
-let timer = document.getElementById('timer');
+let timer = document.getElementById('stopwatch-display');
 // console.log(timer);
 let start = document.getElementById('start');
 let Stop = document.getElementById('stop');
