@@ -26,7 +26,7 @@ Stop.addEventListener('click', ()=>{
 
 reset.addEventListener('click' , ()=>{
     clearInterval(timerId);
-    timer.textContent = '00:00:00';
+    timer.textContent = '00 : 00 : 00 : 00';
     miliSec = sec = min = hour = 0;
 })
 function startTimer(){

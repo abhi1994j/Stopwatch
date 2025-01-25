@@ -34,7 +34,7 @@ body{
     color: white;
     border: none;
     cursor: pointer;
-    transition:   all 0.2s;
+    transition: all 0.2s;
 }
 
 .buttons button:hover{
