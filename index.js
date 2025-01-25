@@ -26,7 +26,7 @@ Stop.addEventListener('click', ()=>{
 
 reset.addEventListener('click' , ()=>{
     clearInterval(timerId);
-    timer.textContent = '00 : 00 : 00 : 00';
+    timer.textContent = '00:00:00:00';
     miliSec = sec = min = hour = 0;
 })
 function startTimer(){
@@ -47,5 +47,5 @@ function startTimer(){
     let secString = sec >= 10 ? sec : `0${sec}`;
     let minString = min >= 10 ? min : `0${min}`;
     let hourString = hour >= 10 ? hour : `0${hour}`;
-    timer.textContent = `${hourString} : ${minString} : ${secString} : ${msecString}`;
+    timer.textContent = `${hourString}:${minString}:${secString}:${msecString}`;
 }
