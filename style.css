@@ -17,15 +17,21 @@ body{
     font-size: 20vh;
     font-weight: 700;
 }
-#stopwatch-display{
-    text-align: center;
-    /* display: inline-block; */
+.stopwatch{
+    width: 90%;
     max-width: 800px;
+}
+#stopwatch-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     text-shadow: 2px 2px #f8a5c2;
     color: #f92672;
 }
 
 .stopwatch-buttons button{
+    width: 30%;
     border: none;
     border-radius: 1.5rem; 
     padding: 5vh 12vh;
