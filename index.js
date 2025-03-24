@@ -16,9 +16,11 @@ start.addEventListener('click', ()=>{
     if(timerId !== null){
         clearInterval(timerId);
     }
-    timerId = setInterval(startTimer, 10);
+     timerId = setInterval(startTimer, 10);
     
 });
+
+
 
 Stop.addEventListener('click', ()=>{
     clearInterval(timerId);
